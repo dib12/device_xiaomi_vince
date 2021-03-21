@@ -8,22 +8,6 @@
 
 function blob_fixup() {
     case "${1}" in
-        vendor/lib/hw/android.hardware.camera.provider@2.4-impl.so \
-        |vendor/lib/camera.device@1.0-impl-v27.so \
-        |vendor/lib/camera.device@3.2-impl-v27.so \
-        |vendor/lib/camera.device@3.3-impl-v27.so)
-            "${PATCHELF}" --replace-needed "camera.device@1.0-impl.so" "camera.device@1.0-impl-v27.so" "${2}"
-            "${PATCHELF}" --replace-needed "camera.device@3.2-impl.so" "camera.device@3.2-impl-v27.so" "${2}"
-            "${PATCHELF}" --replace-needed "camera.device@3.3-impl.so" "camera.device@3.3-impl-v27.so" "${2}"
-            "${PATCHELF}" --replace-needed "vendor.qti.hardware.camera.device@1.0_vendor.so" "vendor.qti.hardware.camera.device@1.0.so" "${2}"
-            ;;
-        vendor/lib/hw/camera.msm8953.so)
-            "${PATCHELF}" --remove-needed "libandroid.so" "${2}"
-            "${PATCHELF}" --replace-needed "libui.so" "libshims_libui.so" "${2}"
-            ;;
-        vendor/lib/libFaceGrade.so)
-            "${PATCHELF}" --remove-needed "libandroid.so" "${2}"
-            ;;
         vendor/lib/libmmcamera2_iface_modules.so)
             # Always set 0 (Off) as CDS mode in iface_util_set_cds_mode
             sed -i -e 's|\x1d\xb3\x20\x68|\x1d\xb3\x00\x20|g' "${2}"
