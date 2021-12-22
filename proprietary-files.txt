@@ -636,19 +636,6 @@ vendor/etc/camera/vince_ov5675_qtech_chromatix.xml
 vendor/etc/camera/vince_ov5675_qtech_chromatix_cn.xml
 vendor/etc/camera/vince_ov5675_qtech_chromatix_india.xml
 
-# Camera-firmware
-vendor/firmware/cpp_firmware_v1_10_0.fw
-vendor/firmware/cpp_firmware_v1_12_0.fw
-vendor/firmware/cpp_firmware_v1_1_1.fw
-vendor/firmware/cpp_firmware_v1_1_6.fw
-vendor/firmware/cpp_firmware_v1_2_0.fw
-vendor/firmware/cpp_firmware_v1_4_0.fw
-vendor/firmware/cpp_firmware_v1_5_0.fw
-vendor/firmware/cpp_firmware_v1_5_1.fw
-vendor/firmware/cpp_firmware_v1_5_2.fw
-vendor/firmware/cpp_firmware_v1_6_0.fw
-vendor/firmware/cpp_firmware_v1_8_0.fw
-
 # Camera-ois
 vendor/lib/libois_lc898122.so
 
