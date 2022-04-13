@@ -63,7 +63,7 @@
         <device name="SND_DEVICE_OUT_BT_SCO_WB" acdb_id="578"/>
         <device name="SND_DEVICE_OUT_VOICE_TX" acdb_id="100"/>
         <device name="SND_DEVICE_OUT_HEADPHONES" acdb_id="52"/>
-        <device name="SND_DEVICE_OUT_SPEAKER_AND_HEADPHONES" acdb_id="1058"/>
+        <device name="SND_DEVICE_OUT_SPEAKER_AND_HEADPHONES" acdb_id="52"/>
         <device name="SND_DEVICE_IN_HANDSET_MIC" acdb_id="19"/>
         <device name="SND_DEVICE_IN_HANDSET_DMIC" acdb_id="41"/>
         <device name="SND_DEVICE_IN_SPEAKER_MIC" acdb_id="35"/>
@@ -105,7 +105,7 @@
         <device name="SND_DEVICE_OUT_BT_SCO" interface="INT_BT_SCO_RX"/>
         <device name="SND_DEVICE_OUT_LINE" interface="PRI_MI2S_RX"/>
         <device name="SND_DEVICE_OUT_ANC_HEADSET" interface="PRI_MI2S_RX"/>
-        <device name="SND_DEVICE_OUT_SPEAKER_AND_HEADPHONES" backend="speaker-and-headphones" interface="PRI_MI2S_RX"/>
+        <device name="SND_DEVICE_OUT_SPEAKER_AND_HEADPHONES" interface="PRI_MI2S_RX"/>
         <device name="SND_DEVICE_OUT_SPEAKER_AND_LINE" interface="PRI_MI2S_RX"/>
         <device name="SND_DEVICE_OUT_SPEAKER_AND_ANC_HEADSET" interface="PRI_MI2S_RX"/>
         <device name="SND_DEVICE_OUT_VOICE_HEADPHONES" interface="PRI_MI2S_RX"/>
