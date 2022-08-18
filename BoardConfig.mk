@@ -29,11 +29,8 @@ BOARD_VENDORIMAGE_PARTITION_SIZE := 872415232
 BOARD_VENDORIMAGE_FILE_SYSTEM_TYPE := ext4
 TARGET_COPY_OUT_VENDOR := vendor
 
-# Properties
-TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
-
 # Security patch level
-VENDOR_SECURITY_PATCH := 2019-10-01
+VENDOR_SECURITY_PATCH := 2022-08-05
 
 # Inherit from the proprietary version
 include vendor/xiaomi/vince/BoardConfigVendor.mk
