@@ -33,7 +33,7 @@ TARGET_COPY_OUT_VENDOR := vendor
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
 
 # Security patch level
-VENDOR_SECURITY_PATCH := 2019-10-01
+VENDOR_SECURITY_PATCH = $(PLATFORM_SECURITY_PATCH)
 
 # Inherit from the proprietary version
 include vendor/xiaomi/vince/BoardConfigVendor.mk
