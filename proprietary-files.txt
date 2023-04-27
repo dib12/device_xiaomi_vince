@@ -15,7 +15,6 @@ vendor/etc/acdbdata/QRD/QRD_workspaceFile.qwsp
 etc/firmware/tas2557_uCDSP.bin:vendor/firmware/tas2557_uCDSP.bin
 
 # Camera
-vendor/lib/lib_lowlight.so
 vendor/lib/libchromaflash.so
 vendor/lib/libflash_pmic.so
 vendor/lib/libjpegdhw.so
