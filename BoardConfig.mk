@@ -30,7 +30,7 @@ BOARD_VENDORIMAGE_FILE_SYSTEM_TYPE := ext4
 TARGET_COPY_OUT_VENDOR := vendor
 
 # Security patch level
-VENDOR_SECURITY_PATCH := 2022-08-05
+VENDOR_SECURITY_PATCH := 2023-02-05
 
 # Inherit from the proprietary version
 include vendor/xiaomi/vince/BoardConfigVendor.mk
