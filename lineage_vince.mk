@@ -27,7 +27,6 @@ TARGET_VENDOR := Xiaomi
 # dib
 BUILD_USERNAME := android-build
 BUILD_HOSTNAME := dib-server
-TARGET_EXCLUDES_AUDIOFX := true
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
