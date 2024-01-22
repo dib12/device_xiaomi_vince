@@ -51,8 +51,7 @@ PRODUCT_PACKAGES += \
 
 # Rootdir
 PRODUCT_PACKAGES += \
-    init.recovery.qcom.rc \
-    init.vince.rc
+    init.recovery.qcom.rc
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
